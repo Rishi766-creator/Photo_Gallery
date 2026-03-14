@@ -1,12 +1,28 @@
-# React + Vite
+# Photo Gallery App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based photo gallery that fetches images from the Picsum API and displays them in a responsive grid.
 
-Currently, two official plugins are available:
+## Live Demo
+https://photo-gallery-9aq08inrs-rishithas-projects-5c00fb19.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Fetch 30 photos from Picsum API
+- Search photos by author name
+- Mark photos as favourites
+- Favourites persist using localStorage
+- Responsive grid layout
+- Performance optimization using `useMemo` and `useCallback`
+- State management using `useReducer`
 
-## Expanding the ESLint configuration
+## Tech Stack
+- React
+- Vite
+- Tailwind CSS
+- Axios
+- React Icons
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## How to Run
+
+```bash
+npm install
+npm run dev
